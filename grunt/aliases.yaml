@@ -13,8 +13,8 @@ js:
 build:
  - clean
  - assemble
-# - css
-# - js
+ - css
+ - js
 
 
 default:
