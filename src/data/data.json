@@ -1,13 +1,20 @@
 {
   "menuItems": [
     {   "menuItemText": "Home",
-        "menuLinkURL": "#"
+        "menuLinkURL": "#",
+        "menuLinkClasses": ""
     },
     {   "menuItemText": "About",
-        "menuLinkURL": "/about"
+        "menuLinkURL": "/about",
+        "menuLinkClasses": ""
     },
     {   "menuItemText": "Blog",
-        "menuLinkURL": "/blog"
+        "menuLinkURL": "/blog",
+        "menuLinkClasses": ""
+    },
+    {   "menuItemText": "Sidebar",
+        "menuLinkURL": "#",
+        "menuLinkClasses": "js-sidebar-link"
     }
   ],
   "contentCards": [
