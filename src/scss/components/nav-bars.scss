@@ -1,0 +1,23 @@
+.nav-bar {
+    margin: 20px 0;
+
+    .nav-items {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+    }
+
+    .nav-item {
+        display: inline;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+
+    .nav-link {
+
+        &:link {
+            text-decoration: none;
+        }
+    }
+}
