@@ -1,0 +1,13 @@
+{
+  "menuItems": [
+    {   "menuItemText": "Home",
+        "menuLinkURL": "#"
+    },
+    {   "menuItemText": "About",
+        "menuLinkURL": "/about"
+    },
+    {   "menuItemText": "Blog",
+        "menuLinkURL": "/blog"
+    }
+  ]
+}
