@@ -1,0 +1,32 @@
+# Where we tell Grunt what to do when we type "grunt" into the terminal
+# $ grunt
+
+css:
+ - sass
+ - postcss
+
+
+js:
+ - uglify
+
+
+build:
+ - clean
+ - assemble
+# - css
+# - js
+
+
+default:
+  - build
+  - exec:updateAssets
+
+
+# Launch the express server and start watching
+# $ grunt serve
+serve:
+  - default
+  - express
+  - open
+  # - browserSync
+  - watch
