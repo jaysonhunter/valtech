@@ -5,7 +5,7 @@ module.exports = {
                 autoprefixer: false,
                 sourcemap: true
             }),
-            require('autoprefixer')({browsers: ['last 3 version']})
+            require('autoprefixer')({browsers: ['last 2 version']})
         ]
     },
     dist: {

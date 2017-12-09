@@ -1,6 +1,12 @@
 .sidebar-section {
     position: relative;
-    float: right;
     padding: 20px;
-    width: 30%;
+}
+
+@media (min-width: $tablet-portrait-up) {
+    .sidebar-section {
+        display: inline-block;
+        width: 30%;
+        float: right;
+    }
 }

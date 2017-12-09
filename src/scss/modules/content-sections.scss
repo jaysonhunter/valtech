@@ -1,6 +1,10 @@
 .content-section {
+
     position: relative;
-    display: inline-block;
     padding: 20px;
-    width: 70%
+
+    @media (min-width: 600px) {
+        display: inline-block;
+        width: 70%;
+    }
 }
