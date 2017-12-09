@@ -1,0 +1,34 @@
+.card-list {
+    list-style-type: none;
+    padding: 0;
+    margin: -10px;
+
+    .card-item {
+        padding: 10px;
+    }
+}
+
+@media (min-width: $tablet-portrait-up) {
+    .card-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .card-item {
+        flex-basis: auto;
+        align-self: flex-start;
+        width: 50%;
+    }
+
+}
+
+@media (min-width: $tablet-landscape-up) {
+
+    .card-item {
+        width: 33%;
+    }
+}
