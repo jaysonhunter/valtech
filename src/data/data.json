@@ -19,32 +19,32 @@
   ],
   "contentCards": [
     {
-        "cardImgURL": "./assets/img/Vlisco.png",
+        "cardImgURL": "./assets/Vlisco.png",
         "cardTitle": "Vlisco",
         "cardSubTitle": "E-commerce with a colourful story"
     },
     {
-        "cardImgURL": "./assets/img/Copenhagen.png",
+        "cardImgURL": "./assets/Copenhagen.png",
         "cardTitle": "Copenhagen Airports",
         "cardSubTitle": "Knowing Your Customer in the Digital Age"
     },
     {
-        "cardImgURL": "./assets/img/TV4.png",
+        "cardImgURL": "./assets/TV4.png",
         "cardTitle": "TV4 play",
         "cardSubTitle": "From TV channel to leading content provider"
     },
     {
-        "cardImgURL": "./assets/img/Audi.png",
+        "cardImgURL": "./assets/Audi.png",
         "cardTitle": "Audi City",
         "cardSubTitle": "How to purchase a real car in a virtual store"
     },
     {
-        "cardImgURL": "./assets/img/Arla.png",
+        "cardImgURL": "./assets/Arla.png",
         "cardTitle": "Arla Foods",
         "cardSubTitle": "Dairy producion in Big Data"
     },
     {
-        "cardImgURL": "./assets/img/Xylem.png",
+        "cardImgURL": "./assets/Xylem.png",
         "cardTitle": "Xylem",
         "cardSubTitle": "Helping the world's largets water technology provider solver the global water crisis through Business Transformation."
     }
