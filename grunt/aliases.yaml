@@ -19,7 +19,7 @@ build:
 
 default:
   - build
-  - exec:updateAssets
+  - copy
 
 
 # Launch the express server and start watching
