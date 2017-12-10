@@ -8,13 +8,23 @@
 
 var valtech = (function(){
 
+    function init() {
+        var $body,
+            $sidebarMenuLink,
+            BODY_TAG = 'body',
+            SIDEBAR_MENU_LINK_CLASS = '.js-sidebar-link',
+            SIDEBAR_HIDDEN_CLASS = 'sidebar-is-hidden';
 
-    var init = function() {
+        $body = $(BODY_TAG);
+        $sidebarMenuLink = $(SIDEBAR_MENU_LINK_CLASS);
 
-
+        if($sidebarMenuLink.length >0) {
+            $sidebarMenuLink.on('click touchend', function(e) {
+                e.preventDefault();
+                $body.toggleClass(SIDEBAR_HIDDEN_CLASS);
+            })
+        }
     }
-
-
 
     return {
         init: init
