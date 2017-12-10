@@ -1,12 +1,20 @@
 .sidebar-section {
     position: relative;
     padding: 20px;
+    opacity: 1;
+    transition: all 1s;
 }
 
 @media (min-width: $tablet-portrait-up) {
     .sidebar-section {
-        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
         width: 30%;
-        float: right;
+
+        .sidebar-is-hidden & {
+            right: -30%;
+            opacity: 0;
+        }
     }
 }

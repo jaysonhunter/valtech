@@ -1,26 +1,20 @@
 .card {
-    position: relative;
     display: inline-block;
+    position: relative;
 
-    .card-image {
-
+    .card__content {
+        padding: 18px 0 30px;
     }
 
-    .card-content {
-        padding: 18px 0 30px;
+    .card__title {
+        font-size: 1.5em;
+        color: #666;
+        margin-bottom: 18px;
+        font-weight: normal;
+    }
 
-        .card__title {
-            font-size: 1.5em;
-            color: #666;
-            margin-bottom: 18px;
-            font-weight: normal;
-        }
-
-        .card__sub-title {
-            line-height: 22px;
-            color: #999;
-        }
-
+    .card__sub-title {
+        line-height: 22px;
+        color: #999;
     }
 }
-
